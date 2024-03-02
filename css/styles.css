@@ -1,0 +1,57 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #ff4444; /* Red */
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+section {
+    padding: 2em;
+    text-align: center;
+}
+
+h2 {
+    color: #4285f4; /* Light Blue */
+}
+
+p {
+    color: #333;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 1em 2em;
+    background-color: #4285f4; /* Light Blue */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.project-section {
+    margin-top: 2em;
+}
+
+.project {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1em;
+    margin: 1em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #ff4444; /* Red */
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
