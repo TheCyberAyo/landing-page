@@ -13,6 +13,40 @@ header {
     padding: 1em 0;
 }
 
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  .logo-section img {
+    width: 50px; /* Adjust the size as needed */
+    height: auto;
+  }
+  
+  .logo-section h1 {
+    margin: 0;
+    margin-left: 10px; /* Adjust the spacing between image and text */
+  }
+  
+  .navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navigation li {
+    margin-right: 15px; /* Adjust the spacing between list items */
+  }
+  
+  h2 {
+    margin: 0;
+  }
+
 section {
     padding: 2em;
     text-align: center;
